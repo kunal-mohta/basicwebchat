@@ -1,0 +1,15 @@
+{
+  "name": "basicwebchat",
+  "version": "1.0.0",
+  "description": "\"Basic chat room functional on the local intranet, made for the practice of websockets with nodejs server.\"",
+  "main": "webchat.js",
+  "dependencies": {
+    "ws": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

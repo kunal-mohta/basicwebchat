@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel = "stylesheet" href = "style.css">
+	<meta name = "viewport" content = "width=device-width, maximum-scale=1, minimum-scale=1">
+</head>
+<body>
+	<div id = "container">
+		<div class = "msgDisplay">
+			<!--  Sample msg
+			<div class = "me-msgui">
+				<div class = "me-clientName">u</div>
+				<div class = "me-msgContent">M</div>
+			</div>
+
+			 Sample msg
+			<div class = "o-msgui">
+				<div class = "o-clientName">u</div>
+				<div class = "o-msgContent">M</div>
+			</div> -->
+			
+		</div>
+
+		<input type = "text" class = "msgInput">
+		<div class = "sendButton" onclick = "sendMsg()"><center><b>Send</b></center></div>
+	</div>
+
+	<script src = "script.js"></script>
+	<script>
+		document.getElementsByClassName("msgInput")[0].addEventListener("keydown", function(e){
+			if(!e) e = window.event;
+
+			if(e.keyCode == 13){
+				sendMsg();
+			}
+		});
+	</script>
+</body>
+</html>

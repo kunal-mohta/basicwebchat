@@ -1,0 +1,115 @@
+body,html{
+	margin:0 0 0 1vw;
+	overflow:hidden;
+	font-family: sans-serif;
+	background: #34ccf7;
+}
+
+body{
+	position:relative;
+}
+
+#container{
+	position:absolute;
+	height:100vh;
+	width:100vw;
+}
+
+.msgDisplay{
+	top:2vh;
+	background: white;
+	position:fixed;
+	height:75vh;
+	width:97vw;
+	border:solid black 1px;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.msgInput{
+	position:fixed;
+	top:80vh;
+	height:5vh;
+	width:75vw;
+}
+
+.sendButton{
+	background: #2eb3f4;
+	color:white;
+	position:fixed;
+	top:80vh;
+	left:83vw;
+	height:6vh;
+	width:14vw;
+	border:solid white 1px;
+	border-radius:10px;
+	line-height: 6vh;
+}
+
+.sendButton:hover{
+	cursor:pointer;
+}
+
+.me-msgui{
+	align-self:flex-end;
+	display:flex;
+	flex-direction: column;
+	align-items: flex-end;
+	background: #2eb3f4;
+	min-width:10vw;
+	max-width:40vw;
+	border-radius:10px;
+	margin:1vh;
+}
+
+.me-clientName{
+	font-size: 2vh;
+	padding:1vh;
+}
+
+.me-msgContent{
+	font-size: 2.5vh;
+	padding:0 1vh 1vh 1vh;
+	color:white;
+}
+
+.o-msgui{
+	align-self:flex-start;
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	background: #dae2e8;
+	min-width:10vw;
+	max-width:40vw;
+	border-radius:10px;
+	margin:1vh;
+}
+
+.o-clientName{
+	font-size: 2vh;
+	padding:1vh;
+}
+
+.o-msgContent{
+	font-size: 2.5vh;
+	padding:0 1vh 1vh 1vh;
+	color:black;
+}
+
+@media all and (min-width: 600px){
+
+	.msgInput{
+		width:80vw;
+	}
+
+	.sendButton{
+		width:10vw;
+		left:85vw;
+	}
+
+	.sendButton:hover{
+		color:blue;
+		border:solid blue 1px;
+	}
+}
