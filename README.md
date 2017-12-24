@@ -51,6 +51,9 @@ This method works for users on both laptops/pcs and handhelds.
 
 *Note:- The user who hosts his/her system files should be careful as other users can view all the content on his/her system that has been hosted over the local server*
 
+#### 3. Cloning the github repository
+The user can also clone [this](https://github.com/kunal-mohta/basicwebchat) github repository and directly run the `index.html` file. Again, this method only works for users on laptops/pcs.
+
 ### How to use the Chat Room
 When you enter the chat room, i.e open the `index.html` file, it will ask you for your local internet ip address. If you don't know your ip, you can find it typing this in your terminal:-
 
