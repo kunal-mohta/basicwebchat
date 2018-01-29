@@ -68,5 +68,17 @@ Enter this when asked. (This remains same for all the users in the same chat roo
 
 And you are done!
 
+## Learning Outcomes
+- Starting to work with Node.js
+- How to use WebSockets for communication with the server without the need to reload the page
+- How chat rooms work
+
+## Screenshots
+![ss1](https://raw.githubusercontent.com/kunal-mohta/basicwebchat/master/screenshots/ss1.png)
+![ss4](https://raw.githubusercontent.com/kunal-mohta/basicwebchat/master/screenshots/ss4.png)
+![ss2](https://raw.githubusercontent.com/kunal-mohta/basicwebchat/master/screenshots/ss2.png)
+![ss3](https://raw.githubusercontent.com/kunal-mohta/basicwebchat/master/screenshots/ss3.png)
+
+
 ## Pointing out bugs/issues and suggesting possible improvements
 This is a basic project made for practice and may contain bugs. You can open an issue in the github repository itself, or mail me your suggestions at `kunalmohta1818@gmail.com`
