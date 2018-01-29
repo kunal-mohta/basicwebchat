@@ -75,7 +75,7 @@ And you are done!
 
 ## Screenshots
 ![ss1](https://raw.githubusercontent.com/kunal-mohta/basicwebchat/master/screenshots/ss1.png)
-![ss4](https://raw.githubusercontent.com/kunal-mohta/basicwebchat/master/screenshots/ss4.png)
+![ss4](https://raw.githubusercontent.com/kunal-mohta/basicwebchat/master/screenshots/ss4.jpg)
 ![ss2](https://raw.githubusercontent.com/kunal-mohta/basicwebchat/master/screenshots/ss2.png)
 ![ss3](https://raw.githubusercontent.com/kunal-mohta/basicwebchat/master/screenshots/ss3.png)
 
