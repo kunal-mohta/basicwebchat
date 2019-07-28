@@ -1,7 +1,6 @@
 # basicwebchat
 
 This is a basic web room functional over an local intranet, made using WebSockets and Node.js, for practice.\
-You can try it live [here](http://139.59.81.132/basicwebchat)!\
 For local usage, follow the instrucations below..
 
 ## Usage
